@@ -22,12 +22,20 @@
             color: rgb(153, 255, 0);
         }
         img {
-            width: 100px;
+            width: 180px;
             height: 5rem;
         }
         .titulo {
             font-size: 1.3rem;
             font-weight: bold;
+        }
+        .descricao{
+            font-size: 0.8rem;
+        }
+        .preco{
+            font-size: 1.5rem;
+            font-weight: bolder;
+            text-align: right;
         }
     </style>
 </head>
@@ -48,7 +56,7 @@
             document.write(`<img src= "image.png" alt="logo">`)
             document.write(`<h1 class="titulo"> ${produto}</h1>`)
             document.write(`<article class="descricao"> ${descricao}</article>`)
-            document.write(`<aside class="preco"> ${preco}</aside>`)            
+            document.write(`<aside class="preco"> R$ ${preco}</aside>`)            
         </script>
     </div>
 
